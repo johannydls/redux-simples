@@ -1,0 +1,36 @@
+.Card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.Card .Header {
+  display: flex;
+  justify-content: center; /* Alinhamento na linha */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Card .Header .Title {
+  padding: 5px;
+  flex: 1; /* ocupa todo o espaço disponível */
+}
+
+.Card .Content {
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Card.Red .Header { color: #fff; background-color: #C62828; }
+.Card.Red .Content {background-color: rgb(178, 89, 89); }
+
+.Card.Green .Header { color: #fff; background-color: #2e7d32; }
+.Card.Green .Content { background-color: #4caf50; }
+
+.Card.Blue .Header { color: #fff; background-color: #1565c0; }
+.Card.Blue .Content { background-color: #2196f3; }
+
+.Card.Purple .Header { color: #fff; background-color: #720d93; }
+.Card.Purple .Content { background-color: #9c27b0; }
