@@ -6,18 +6,16 @@ import Card from './Card';
 
 export default props => {
 
-  const { min, max } = props;
-
   return (
     <Card title="Intervalo de Números" red>
       <div className="Intervalo">
         <span>
           <strong>Mínimo:</strong>
-          <input type="number" value={min} onChange={ e => props.handleMinChanged(+e.target.value) } />
+          <input type="number" value={0} readOnly/>
         </span>
         <span>
           <strong>Máximo:</strong>
-          <input type="number" value={max} onChange={ e => props.handleMaxChanged(+e.target.value) } />
+          <input type="number" value={10} readOnly/>
         </span>
       </div>
     </Card>
