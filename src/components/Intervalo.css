@@ -7,3 +7,14 @@
   border-radius: 7px;
   border: none;
 }
+
+.Operation strong {
+  margin-left: 10px;
+} 
+
+@media(max-width: 630px) {
+  .Intervalo {
+    display: flex;
+    flex-direction: column;
+  }
+}

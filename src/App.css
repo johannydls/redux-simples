@@ -11,3 +11,9 @@ h1 {
 .linha {
   display: flex;
 }
+
+@media(max-width:950px) {
+  .linha {
+    flex-direction: column;
+  }
+}
