@@ -6,7 +6,6 @@ import './Intervalo.css';
 import Card from './Card';
 
 function Media(props) {
-  console.log(props);
 
   const { min, max } = props;
   const media = (max + min) / 2;
